@@ -1,0 +1,10 @@
+  .emailc {
+    cursor: pointer;
+    border-style: dashed;
+    border-width: 0px 0px 1px;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px;
+    font-weight: bold;
+    margin-top: 7px;
+  }

@@ -1,0 +1,32 @@
+.Login {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    margin: 0px;
+  }
+  
+  .CreateAccount {
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+  
+  .para {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px 4px 0px 0px;
+  }
+  
+  .createlink {
+    color: green;
+    line-height: 150%;
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    border-width: 0px 0px 1px;
+    border-style: dashed;
+    border-color: green;
+    padding-bottom: 4px;
+    cursor: pointer;
+  }
+  

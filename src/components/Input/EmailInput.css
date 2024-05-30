@@ -1,0 +1,10 @@
+.emailInput {
+    height: 51px;
+    width: 462px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 6px;
+    transition: border-color 400ms ease-in-out 0s;
+  }
+  
