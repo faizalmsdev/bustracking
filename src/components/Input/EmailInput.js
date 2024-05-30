@@ -1,7 +1,19 @@
-import React from "react";
-import "./EmailInput.css";
+// EmailInput.js
+import React, { useContext } from 'react';
+import './EmailInput.css';
+import { DataContext } from '../../contexts/DataContexts';  
 
-const EmailInput = (props) => {
+const EmailInput = () => {
+  const { contactInfo, setContactInfo } = useContext(DataContext);
+
+  const handleChange = (event) => {
+    const { value } = event.target;
+    setContactInfo((prev) => ({
+      ...prev,
+      email: value,
+    }));
+  };
+
   return (
     <div>
       <input
@@ -9,8 +21,8 @@ const EmailInput = (props) => {
         placeholder="Email address"
         required=""
         type="email"
-        value={props.value} 
-        onChange={props.onChange} 
+        value={contactInfo.email}
+        onChange={handleChange}
       />
     </div>
   );
